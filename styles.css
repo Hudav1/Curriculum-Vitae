@@ -365,13 +365,13 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 50px;
     padding: 0px 300px 0px 300px;
 }
 
 .projects-title {
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .projects-title::after {
@@ -388,13 +388,13 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 50px;
     padding: 0px 300px 0px 300px;
 }
 
 .education-title {
     position: relative;
-    padding-bottom: 20px; 
+    padding-bottom: 5px; 
 }
 
 .education-title::after {
@@ -411,13 +411,13 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 50px;
     padding: 0px 300px 0px 300px;
 }
 
 .languages-title {
     position: relative;
-    padding-bottom: 20px; 
+    padding-bottom: 5px; 
 }
 
 .footer-container {
@@ -437,4 +437,18 @@ body {
     margin-right: 40px;
     font-size: 22px;
     color: #fff;
+}
+
+.link {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background-color: #292727;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.link:hover {
+    background-color: #a5a5a5;
+    color: #000000;
+    transition: 0.4s;
 }
