@@ -20,14 +20,6 @@
     <header class="header">
       <div class="container">
         <div class="header-line">
-          <div class="header-logo">
-            <img
-              src="assets/img/cv-icon.png"
-              alt="cv logo"
-              width="128"
-              height="#"
-            />
-          </div>
           <nav class="nav">
             <ul class="nav-list">
               <li><a class="nav-link" href="#contacts-section">Contacts</a></li>
@@ -40,6 +32,22 @@
             </ul>
           </nav>
         </div>
+          <div class="drop-nav">
+            <button id="dropdown-nav">
+              <img src="assets/img/menu-icon.png" alt="menu icon" width="64">
+            </button>
+            <div id="nav-menu" class="dropdown-nav-menu disp">
+              <ul class="dropdown-menu">
+                <li><a class="nav-link block" href="#contacts-section">Contacts</a></li>
+                <li><a class="nav-link block" href="#aboutme-section">About Me</a></li>
+                <li><a class="nav-link block" href="#profandskills-section">Profiency and Skills</a></li>
+                <li><a class="nav-link block" href="#codeexample-section">Code Example</a></li>
+                <li><a class="nav-link block" href="#projects-section">Projects and Experience</a></li>
+                <li><a class="nav-link block" href="#education-section">Education</a></li>
+                <li><a class="nav-link block" href="#languages-section">Languages</a></li>
+              </ul>
+            </div>
+          </div>
       </div>
       <div class="header-down">
         <div class="header-title">
@@ -151,6 +159,22 @@
                 </ul>
               </div>
             </div>
+              <div class="adapted-column">
+                <ul class="third-list">
+                  <li class="git">Git/GitHub;</li>
+                  <li class="markdown">Markdown;</li>
+                  <li class="csharp">C# (Basic);</li>
+                  <li class="sql">SQL (Basic);</li>
+                  <li class="vscode">VS Code;</li>
+                  <li class="html">HTML;</li>
+                  <li class="css">CSS;</li>
+                  <li class="godot">Godot Engine, GDScript.</li>
+                </ul>
+              </div>
+
+
+
+            
           </div>
         </div>
       </section>
@@ -253,5 +277,6 @@
         </div>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
