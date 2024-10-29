@@ -1,5 +1,5 @@
 # Curriculum-Vitae
-https://Hudav1.github.io/Curriculum-Vitae/cv
+https://hudav1.github.io/Test/cv
 
 # Заверстанный сайт
-https://Hudav1.github.io/Curriculum-Vitae/
+https://hudav1.github.io/Test/
